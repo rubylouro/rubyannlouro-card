@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
 
 
     }
@@ -17,9 +17,9 @@ body {
 .back-side {
   display:grid;
   width:80%;
-  margin: 0 auto;
+  margin: 60px auto;
   grid-template-columns: 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-rows: 2fr 1fr 2fr; 
   grid-column-gap: 0px;
   grid-row-gap: 0px; 
   }
@@ -54,6 +54,8 @@ h3{
   margin-bottom: 0px;
   font-family:'Josefin Sans', sans-serif;
   font-size: 235px;
+
+
   
   }
   
@@ -63,15 +65,20 @@ h3{
   font-family:'Josefin Sans', sans-serif;
   font-size: 60PX;
   color: FFFFFF;
+  text-align: center;
   
   
   
   }
-  img{
-    width: 30%;
-    margin: 0 auto;
 
-  }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+  
   
   /* Coloring of graphics */
   #tag-container{
@@ -120,8 +127,7 @@ h3{
         stroke-width: 5px;
       }
 
-       <defs>
-    <style>
+ 
       .cls-1 {
         fill: #aac1b0;
       }
@@ -135,7 +141,7 @@ h3{
 
 
   /* email icon styling */
- 
+ .email
     .cls-1 {
       fill: #aac1b0;
     }
@@ -146,3 +152,15 @@ h3{
       stroke-miterlimit: 10;
       stroke-width: 4px;
     }
+
+   /* linkedin-iconstylting */
+      .cls-1 {
+        fill: #aac1b0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #aac1b0;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
