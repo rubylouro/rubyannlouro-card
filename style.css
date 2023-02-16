@@ -42,13 +42,14 @@ body {
    .icon-container{ 
      display:grid;
      grid-area: 3 / 1 / 4 / 2;  
-      width: 30%;
+      width: 50%;
       margin: 0 auto;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       grid-template-areas: 
       "a b c";
       grid-gap: 10px;
+
       
 }
 
@@ -137,7 +138,7 @@ h3{
 
 /* ig iconstyling  */
 .instagram {
-  width:60%;
+  width:70%;
 }
       .cls-1 {
         stroke-width: 3px;
