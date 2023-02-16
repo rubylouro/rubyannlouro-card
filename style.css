@@ -13,7 +13,7 @@ body {
     cursor: url("custom-cursor/curor"), pointer;
     background-repeat: no-repeat;
     background-size:cover;
-    cursor: url(assets/custom-cursor/'cursor-closed.png'), pointer;
+    cursor: url(assets/custom-cursor/cursor-closed.png), auto;
   
 
 }
@@ -40,18 +40,19 @@ body {
   /* the icon container has a smaller grid within it */
 
    .icon-container{ 
-      grid-area: 3 / 1 / 4 / 2; 
-      width:40%;
+     display:grid;
+     grid-area: 3 / 1 / 4 / 2;  
+      width: 30%;
       margin: 0 auto;
-      display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       grid-template-areas: 
       "a b c";
-      grid-gap: 20px;
+      grid-gap: 10px;
+      
 }
 
-/* .icon-container{ */
+/* .icon-container{
   position: absolute;
   bottom: 20px;
   left: 30%;
@@ -63,7 +64,7 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 10px;
-}
+} */
 
 /* .circle{
   background-image: url("/assets/circle.svg");
@@ -121,9 +122,8 @@ h3{
   
   /* icon styling  */
   .svg-interaction{
-  fill:rgb(173, 210, 116);
-  opacity: 0.5;
-  animation:pulse; 
+  fill:rgb(169, 192, 175);
+  opacity:1;
   animation-duration: 2s;
   }
 
