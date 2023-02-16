@@ -19,11 +19,12 @@ body {
 .back-side {
   display:grid;
   width:80%;
-  margin: 60px auto;
+  margin: 300px auto;
   grid-template-columns: 1fr; 
   grid-template-rows: 2fr 1fr 2fr; 
   grid-column-gap: 0px;
   grid-row-gap: 0px; 
+
   }
 
   /* The card container has four children, each holding content */
@@ -156,6 +157,7 @@ h3{
     }
 
    /* linkedin-iconstylting */
+   .linked-in
       .cls-1 {
         fill: #aac1b0;
       }
