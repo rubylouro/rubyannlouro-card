@@ -13,10 +13,11 @@ body {
     cursor: url("custom-cursor/curor"), pointer;
     background-repeat: no-repeat;
     background-size:cover;
-    cursor: url(assets/custom-cursor/cursor-closed.png), auto;
+    cursor: url("assets/custom-cursor/cursor-closed.png"),pointer;
   
 
 }
+
 
 
 /* a container for the whole card */
@@ -127,7 +128,12 @@ h3{
   opacity:1;
   animation-duration: 2s;
   }
-
+  
+  a{
+    cursor: url("assets/social-media/instagram-icon.svg"), pointer;
+     }
+  
+ 
   .svg-interaction:hover{
     fill:rgb(173, 210, 116);
     opacity: 0.5;
