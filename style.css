@@ -103,7 +103,7 @@ h3{
       margin: auto;
       width: 50%;
       position: relative;
-      left: 45px;
+      left: 48px;
     }
 
   
@@ -139,6 +139,7 @@ h3{
 /* ig iconstyling  */
 .instagram {
   width:70%;
+  margin-left: 15%;
 }
       .cls-1 {
         stroke-width: 3px;
@@ -168,7 +169,11 @@ h3{
 
 
   /* email icon styling */
- .email
+ .email {
+  width: 130%;
+  margin-left: 24%;
+  margin-top: 7%;
+ }
     .cls-1 {
       fill: #aac1b0;
     }
@@ -181,7 +186,10 @@ h3{
     }
 
    /* linkedin-iconstylting */
-   .linked-in
+   .linked-in {
+    width: 70%;
+    margin-left: 85%;
+   }
       .cls-1 {
         fill: #aac1b0;
       }
