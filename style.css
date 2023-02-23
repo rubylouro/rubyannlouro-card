@@ -10,10 +10,11 @@
 
 body {
     background-image: url('assets/flower-bg-with-needles.png');
-    cursor: url("custom-cursor/curor"), pointer;
     background-repeat: no-repeat;
     background-size:cover;
-    cursor: url("assets/custom-cursor/cursor-closed.png"),pointer;
+    cursor: url("assets/cursor2.svg"), pointer;
+    
+    
   
 
 }
@@ -131,11 +132,11 @@ h3{
   
  
     
-
-    a{
-      cursor: url("assets/custom-cursor/cursor2.svg"), pointer;
-    }
+a{
+  cursor: url("assets/cursorscissors.svg"),pointer;
+}
     
+
   
  
   .svg-interaction:hover{
