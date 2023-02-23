@@ -130,8 +130,9 @@ h3{
   }
   
   a{
-    cursor: url("assets/social-media/instagram-icon.svg"), pointer;
+    cursor: url("assets/custom-cursor/cursor2.svg"),pointer;
      }
+    
   
  
   .svg-interaction:hover{
@@ -146,7 +147,7 @@ h3{
 .instagram {
   width:70%;
   margin-left: 15%;
-}
+}2
       .cls-1 {
         stroke-width: 3px;
       }
