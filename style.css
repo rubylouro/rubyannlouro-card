@@ -130,7 +130,9 @@ h3{
   animation-duration: 2s;
   }
   
- 
+body{
+  cursor: url(assets/cursorscissors2.svg), pointer;
+}
     
 a{
   cursor: url("assets/cursorscissors.svg"),pointer;
